@@ -1,46 +1,50 @@
 from pyscript import display, document
 
 teams = {
-    "7_Ruby": "Red Dragons",
-    "7_Emerald": "Green Falcons",
-    "7_Sapphire": "Blue Lions",
+    "7_Ruby": "Red Bulldogs",
+    "7_Emerald": "Green Hornets",
+    "7_Sapphire": "Blue Bears",
     "7_Diamond": "Yellow Tigers",
-    "8_Ruby": "Red Tigers",
-    "8_Emerald": "Green Phoenix",
-    "8_Sapphire": "Blue Eagles",
-    "8_Diamond": "Yellow Panthers",
-    "9_Ruby": "Red Warriors",
-    "9_Emerald": "Green Spartans",
-    "9_Sapphire": "Blue Giants",
-    "9_Diamond": "Yellow Titans",
-    "10_Ruby": "Red Champions",
-    "10_Emerald": "Green Legend",
-    "10_Sapphire": "Blue Elite",
-    "10_Diamond": "Yellow Crown",
+    "8_Ruby": "Red Bulldogs",
+    "8_Emerald": "Green Hornets",
+    "8_Sapphire": "Blue Bears",
+    "8_Diamond": "Yellow Tigers",
+    "9_Ruby": "Red Bulldogs",
+    "9_Emerald": "Green Hornets",
+    "9_Sapphire": "Blue Bears",
+    "9_Diamond": "Yellow Tigers",
+    "10_Ruby": "Red Bulldogs",
+    "10_Emerald": "Green Hornets",
+    "10_Sapphire": "Blue Bears",
+    "10_Diamond": "Yellow Tigers",
 }
 
 players_list = [
-    "Escudero",
-    "Estrada",
-    "Tolentino",
-    "Pimentel",
-    "Binay",
-    "Cayetano",
-    "Dela Rosa",
-    "Ejercito",
-    "Gatchalian",
-    "Go",
-    "Hontiveros",
-    "Lapid",
-    "Legarda",
-    "Marcos",
-    "Padilla",
-    "Poe",
-    "Revilla",
-    "Tulfo",
-    "Villanueva",
-    "Villar",
-    "Zubiri"
+    "Abayon",
+    "Antes",
+    "Apostol",
+    "Banaag",
+    "Barrientos",
+    "Casal",
+    "Coeli",
+    "David",
+    "De Mata",
+    "Dela Cruz F",
+    "Dela Cruz L",
+    "Dellejero",
+    "Fukuda",
+    "Fukuda",
+    "Gozum",
+    "Ibay",
+    "Lim",
+    "Lozano",
+    "Mamauag",
+    "Navarro",
+    "Precones",
+    "Ramos",
+    "Sidhu",
+    "Villamayor",
+    "Zaragoza"
 ]
 
 def hide_all_sections():
@@ -84,4 +88,5 @@ def show_players_list(e):
     document.getElementById('players_output').innerHTML = ''
     players_text = '<br>'.join([f'{i}) {player}' for i, player in enumerate(players_list, 1)])
     document.getElementById('players_output').innerHTML = players_text
+
 
