@@ -8,30 +8,91 @@ body{
 	background: #f6fbff;
 }
 
-.site-nav{display:flex;align-items:center;justify-content:space-between;padding:10px 0;border-bottom:1px solid #e6f2fb}
-.brand a{color:#0b2a4a;font-weight:700;text-decoration:none}
-.nav-links a{margin-left:10px;color:#0b66b2;text-decoration:none;padding:6px 8px;border-radius:8px}
+.site-nav{
+	display:flex;
+	align-items:center;
+	justify-content:space-between;
+	padding:10px 0;
+	border-bottom:1px solid #e6f2fb}
+
+.brand a{
+	color:#0b2a4a;
+	font-weight:700;
+	text-decoration:none}
+
+.nav-links a{
+	margin-left:10px;
+	color:#0b66b2;
+	text-decoration:none;
+	padding:6px 8px;border-radius:8px}
 
 
-.card{background:#fff;border-radius:10px;box-shadow:0 6px 16px rgba(0,0,0,0.06);padding:18px;max-width:440px;margin:22px auto}
-.card h2{margin:0 0 12px;text-align:center}
-.muted{text-align:center;color:#516872}
-.center{text-align:center}
+.card{
+	background:#fff;
+	border-radius:10px;
+	box-shadow:0 6px 16px rgba(0,0,0,0.06);
+	padding:18px;
+	max-width:440px;
+	margin:22px auto}
+
+.card h2{
+	margin:0 0 12px;
+	text-align:center}
+
+.muted{
+	text-align:center;
+	color:#516872}
+
+.center{
+	text-align:center}
+
+.btn{
+	background:linear-gradient(90deg,#2b8ce6,#0b66b2);
+	color:#fff;
+	padding:8px 14px;
+	border-radius:8px;
+	border:none;
+	cursor:pointer}
 
 
-.btn{background:linear-gradient(90deg,#2b8ce6,#0b66b2);color:#fff;padding:8px 14px;border-radius:8px;border:none;cursor:pointer}
+.badge{
+	display:inline-block;
+	padding:6px 10px;
+	border-radius:8px;
+	font-size:0.95rem;
+	margin-right:8px}
+
+.badge.red{
+	background:#fff0f0;
+	color:#b52b2b}
+
+.badge.green{
+	background:#f0fff2;
+	color:#157a2e}
+
+.badge.blue{
+	background:#eef7ff;
+	color:#0b66b2}
+
+.badge.yellow{
+	background:#fff8e6;
+	color:#b37f00}
 
 
-.badge{display:inline-block;padding:6px 10px;border-radius:8px;font-size:0.95rem;margin-right:8px}
-.badge.red{background:#fff0f0;color:#b52b2b}
-.badge.green{background:#f0fff2;color:#157a2e}
-.badge.blue{background:#eef7ff;color:#0b66b2}
-.badge.yellow{background:#fff8e6;color:#b37f00}
+form input, form select{
+	margin:8px 0;
+	padding:8px;
+	width:100%;
+	max-width:380px;
+	border:1px solid #d6e6f6;
+	border-radius:6px}
 
+.players-list{
+	margin-top:12px;
+	line-height:1.6}
 
-form input, form select{margin:8px 0;padding:8px;width:100%;max-width:380px;border:1px solid #d6e6f6;border-radius:6px}
+footer{
+	margin-top:36px;
+	color:#415b6b;
+	font-size:0.95rem}
 
-
-.players-list{margin-top:12px;line-height:1.6}
-
-footer{margin-top:36px;color:#415b6b;font-size:0.95rem}
